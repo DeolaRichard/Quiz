@@ -48,6 +48,10 @@ for key, value in Quiz.items():
         print("The right answer is: ", value["answer"])
         print("Your score is: ", score)
 
+# Calculate the Percentage Score of the user
+print("You got ", score, "out of the total possible scores")
+print("Your percentage score is: ", int(score / 5 * 100), "%")
+
 
 
 
